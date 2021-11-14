@@ -1,0 +1,54 @@
+.name-container{
+    padding-top: 50px;
+    padding-bottom: 200px;
+    padding-left: calc(100% - 90%);;
+    padding-right: calc(100% - 90%);;
+}
+.icon-with-link{
+    width: 3rem;
+    height: 3rem;
+    display:inline;
+}
+.small-icon{
+    width: 1.3rem;
+    height: 1.3rem;
+    display:inline;
+}
+.icon-no-link{
+    width: 3rem;
+    height: 3rem;
+    display:inline;
+    opacity: 0.2;
+}
+.inline-style{
+    display:inline;   
+}
+.div-style{
+    padding-bottom: 16px;
+}
+.block-style{
+    display:block;
+}
+p, h3{
+    display:inline;
+}
+.img-t{
+    border-radius: 8px;
+    height: auto; 
+    width: auto; 
+    max-width: 360px;
+}
+.phone-img-t{
+    border-radius: 8px;
+    height: auto; 
+    width: auto; 
+    max-width: 250px;
+}
+.align-right{
+    float: right;
+}
+.scroll{
+    max-height: calc(100vh - 144px);
+    overflow: scroll;
+}
+

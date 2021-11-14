@@ -1,0 +1,10 @@
+.menu-container{
+    padding-top: 5%;
+    padding-left: calc(100% - 65%);
+    padding-right: calc(100% - 65%);
+}
+.phone-menu-container{
+    padding-top: 25%;
+    padding-left: calc(100% - 65%);
+    padding-right: calc(100% - 65%);
+}

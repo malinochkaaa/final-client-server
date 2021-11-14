@@ -1,0 +1,36 @@
+img{
+    border-radius: 8px;
+    height: auto;
+    width: auto;
+}
+.img-m{
+    max-width: 250px;
+}
+
+.img-style{
+    padding: 30px;
+}
+.card-style{
+    padding-bottom: 20px;
+    padding-left: calc((100% - 30rem)/2);
+    padding-right: calc((100% - 30rem)/2);
+    margin: 0 auto;
+    display: block;
+}
+.card-vert-style{
+    padding-bottom: 20px;
+    padding-left: calc((100% - 20rem)/2);
+    padding-right: calc((100% - 20rem)/2);
+    margin: 0 auto;
+    display: block;
+    }
+a{
+    text-align: left;
+}
+.text-style{
+    padding-bottom: 5px;
+}
+.list-scroll{
+    max-height: calc(100vh - 144px);
+    overflow-y: auto;
+}
