@@ -48,7 +48,7 @@ const DocStyle = createGlobalStyle`
 
 let ind_id = [];
 let ind_id_fav = [];
-const prefix = packageJson.homepage ? "/client-server" : "";
+const prefix = packageJson.homepage ? "/final-client-server" : "";
 window.currentURL = prefix + "/";
 export class App extends React.Component {
 

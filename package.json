@@ -2,7 +2,7 @@
   "name": "salute-demo-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://malinochkaaa.github.io/client-server/",
+  "homepage": "https://malinochkaaa.github.io/final-client-server/",
   "dependencies": {
     "2gis-maps": "^3.6.6",
     "@2gis/mapgl": "^1.12.1",
