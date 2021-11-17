@@ -20,8 +20,8 @@ const CardVertContainer = (props) => {
     useEffect(() => setFavorite(props.info.in_favourites), [props.info.in_favourites]);
     return(
         <div className="card-vert-style">
-                <Card style={{ 
-                    width: '20rem' }}>
+                <Card style={{
+                    width: '20rem', backgroundColor: "rgba(0, 44, 66, 0.7)" }}>
                     <CardBody className="img-style">
                             <Image className="img-m" src={props.info.pictures} />
                         <CardContent>
@@ -33,7 +33,7 @@ const CardVertContainer = (props) => {
                             </TextBox>
                             <ActionButton
                                 onClick = {() => {updateFavorites(inFavorite, props.info.id); setFavorite(!inFavorite);}}
-                                size='l'
+                                size='m'
                                 view='primary'
                                 pin='square-square'
                                 contentLeft={inFavorite ? <IconHeart/> : <IconHeartStroke/>}

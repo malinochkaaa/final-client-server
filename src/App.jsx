@@ -5,8 +5,8 @@ import {
 } from "@sberdevices/assistant-client";
 import "./App.css";
 import { createGlobalStyle } from 'styled-components';
-import { darkJoy, darkEva, darkSber } from '@sberdevices/plasma-tokens/themes'; 
-import {text, background, gradient} from '@sberdevices/plasma-tokens';
+import { darkJoy, darkEva, darkSber } from '@sberdevices/plasma-tokens/themes';
+import {text, background} from '@sberdevices/plasma-tokens';
 import { DeviceThemeProvider } from '@sberdevices/plasma-ui/components/Device';
 import {
   BrowserRouter as Router, 
@@ -41,8 +41,9 @@ const DocStyle = createGlobalStyle`
     html:root {
         min-height: 100vh;
         color: ${text};
-        background-color: ${background};
-        background-image: ${gradient};
+        background-position: center center;
+        background-attachment: fixed;
+        background-image: url("https://res.cloudinary.com/museums/image/upload/e_blur:400/v1632137644/back2.jpg");
     }
 `;
 
