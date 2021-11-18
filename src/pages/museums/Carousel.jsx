@@ -18,10 +18,13 @@ export const CarouselContainer = (props) => {
     const items = props.pictures == undefined ? [defaultImage, defaultImage] : props.pictures;
     let itemsComponents = items.map((item, i) => (
             <CarouselItem key={i}>
-                <Card style={{ width: "14rem", height: "11rem", margin: "0.4rem",}}>
+                <Card className={(
+                    (document.documentElement.clientWidth == 1280 && document.documentElement.clientHeight == 800) ? "portal-card" : "card")}>
                     <CardBody>
                         <CardContent>
-                            <div className="phone-img-t">
+                            <div className={(
+                                (document.documentElement.clientWidth == 1280 && document.documentElement.clientHeight == 800) ? "portal-img-t" : "img-t")
+                            }>
                                 <Image title={`Item ${i}`} src={item} />
                             </div>
                         </CardContent>

@@ -32,16 +32,16 @@
 p, h3{
     display:inline;
 }
-.img-t{
+.portal-img-t{
     border-radius: 8px;
-    height: auto; 
-    width: auto; 
+    height: auto;
+    width: auto;
     max-width: 360px;
 }
-.phone-img-t{
+.img-t{
     border-radius: 8px;
-    height: auto; 
-    width: auto; 
+    height: auto;
+    width: auto;
     max-width: 250px;
 }
 .align-right{
@@ -51,4 +51,16 @@ p, h3{
     max-height: calc(100vh - 144px);
     overflow: scroll;
 }
+.card{
+    width: 14rem;
+    height: 11rem;
+    margin: 0.4rem;
+    background-color: rgba(0, 44, 66, 0.7);
+}
 
+.portal-card{
+    width: 12.5rem;
+    height: 10rem;
+    margin: 0.4rem;
+    background-color: rgba(0, 44, 66, 0.7);
+}
