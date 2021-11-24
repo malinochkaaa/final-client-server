@@ -32,6 +32,9 @@
 p, h3{
     display:inline;
 }
+a, h1, h2, h3{
+    color: #d8f4ef;
+}
 .portal-img-t{
     border-radius: 8px;
     height: auto;

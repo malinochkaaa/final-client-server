@@ -56,6 +56,7 @@ export const Museums = (props) => {
                     <Header
                         back={true}
                         title="Музеи"
+                        style={{color: "#d8f4ef"}}
                         subtitle="Список музеев Москвы"
                         onClick={() => {
                             setIsLoaded(false);

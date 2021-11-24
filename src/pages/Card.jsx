@@ -22,7 +22,7 @@ const CardContainer = (props) => {
         <div className="card-style">
                 <Card style={{ width: "30rem", backgroundColor: "rgba(0, 44, 66, 0.7)", }}>
                     <CardContent compact>
-                    <TextBox style={{ fontSize: "16px", position: "absolute", top: "10px"}} title={props.ind}/>
+                    <TextBox style={{ fontSize: "16px", position: "absolute", top: "10px", color:"#d8f4ef"}} title={props.ind}/>
                         <Cell
                             contentLeft={
                                 <div className="img-style">

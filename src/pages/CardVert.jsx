@@ -25,7 +25,7 @@ const CardVertContainer = (props) => {
                     <CardBody className="img-style">
                             <Image className="img-m" src={props.info.pictures} />
                         <CardContent>
-                            <TextBox style={{ fontSize: "16px", position: "absolute", top: "10px"}} title={props.ind}>
+                            <TextBox style={{ fontSize: "16px", position: "absolute", top: "10px", color: "#d8f4ef"}} title={props.ind}>
                                 <TextBoxTitle className="text-style">
                                     <Link to={{pathname: `${props.prefix}/museums/first`}} onClick={() => props.openMuseum(props.info.id)}>{props.info.name}</Link>
                                 </TextBoxTitle>
