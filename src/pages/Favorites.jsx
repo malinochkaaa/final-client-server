@@ -57,7 +57,7 @@ export const Favorites = (props) => {
                     back={true}
                     title="Избранное"
                     subtitle="Список избранных музеев"
-                    style={{color: "#d8f4ef"}}
+                    style={{color: "#FDEBD0"}}
                     onClick={() => {
                         history.goBack();
                     }}
