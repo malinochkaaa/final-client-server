@@ -43,7 +43,7 @@ const DocStyle = createGlobalStyle`
         color: ${text};
         background-position: center center;
         background-attachment: fixed;
-        background-image: url("https://res.cloudinary.com/museums/image/upload/e_blur:400/v1632137644/back2.jpg");
+        background-image: url("https://res.cloudinary.com/museums/image/upload/e_blur:300/v1632137644/back2.jpg");
     }
 `;
 
