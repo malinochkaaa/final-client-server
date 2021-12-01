@@ -21,10 +21,10 @@ const CardVertContainer = (props) => {
     return(
         <div className="card-vert-style">
                 <Card style={{
-                    width: '20rem', backgroundColor: "rgba(0, 44, 66, 0.7)" }}>
-                    <CardBody className="img-style">
+                    width: '20rem', marginLeft: '1.75rem', backgroundColor: "rgba(0, 44, 66, 0.7)"}}>
+                    <CardBody className="img-style" style={{maxWidth:"250px"}}>
                             <Image className="img-m" src={props.info.pictures} />
-                        <CardContent>
+                        <CardContent style={{maxWidth:"250px"}}>
                             <TextBox style={{ fontSize: "16px", position: "absolute", top: "10px", color: "#FDEBD0"}} title={props.ind}>
                                 <TextBoxTitle className="text-style">
                                     <Link to={{pathname: `${props.prefix}/museums/first`}} onClick={() => props.openMuseum(props.info.id)}>{props.info.name}</Link>
