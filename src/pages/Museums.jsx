@@ -74,7 +74,7 @@ export const Museums = (props) => {
         :
         <div>
             {cards===[]?<div></div> : cards.map((e, ind) => {
-                if(document.documentElement.clientWidth <= 400) {
+                if(document.documentElement.clientWidth <= 480) {
                     return <CardVertContainer
                                 key={e.id} 
                                 ind={ind+1} 
